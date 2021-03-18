@@ -1,0 +1,58 @@
+<h4>Ideas/conceptos claves</h4>
+Edge es lo que conecta es decir el pointer
+
+Grafo es un conjunto de objetos llamados vértices o nodos unidos por enlaces llamados aristas o arcos, 
+que permiten representar relaciones binarias entre elementos de un conjunto.
+
+<h4>Apuntes</h4>
+Los grafos pueden llegar a ser una combinación de otras estructuras de datos vistas anteriormente, 
+para tener una conexión entre los nodos
+Los grafos son simplemente nodos interconectados, existen diferentes formas de conectarlos entre si
+Esta estructura de datos está compuesta por
+Nodos [vértice]
+Edge [Borde]
+Existen diferentes grafos
+<h4>Grafos dirigidos y no dirigidos</h4>
+En los dirigidos un nodo nos lleva a otro nodo
+En los no dirigidos un nodo nos lleva a otro nodo, pero también en viceversa
+Ejemplos
+
+Facebook ⇒ un amigo está conectado con otro, es decir que ambos tendrán la información del otro
+Twitter ⇒ un seguidor solo puede obtener la información del otro sin la necesidad que el otro lo siga
+<h4>Grafos ponderados y no ponderados</h4>
+Ponderados ⇒ Hay un peso, un digito o valor en el vértice
+No ponderados ⇒ No tienen un valor en los vertices
+Ejemplo
+
+✈️ Se necesita hacer vuelos entre diferentes aeropuertos, pero deben salir lo más económico posible entonces 
+lo que se debe hacer es buscar la ruta más optima posible para ahorrar gasolina, cada nodo se volvería 
+un aeropuerto y cada vértice tendría el costo de un aeropuerto a otro
+
+<h4>Grafos cíclicos y acíclicos</h4>
+Cíclico ⇒ Es un grafo en el cual puedo recorrer un nodo y luego volver a ese nodo
+Acíclico ⇒ No puedo regresar a un punto en específico una vez recorrido el grafo
+RESUMEN: Un grafo es una estructura de datos las cuales están compuestas de nodos conectados entre sí, 
+estas conexiones pueden ser de una o dos direcciones, sus conexiones pueden llevar valores o no 
+y también pueden ser cíclicos como también no.
+
+====================================================================================================
+====================================================================================================
+====================================================================================================
+
+Hay 3 formas de representar grafos:
+.
+Edge List: Te dice por medio de pares, quiénes son esos nodos que tienen conexión entre sí, 
+es como si los juntáramos diciendo “este con este, este con este y este con este”, l
+o normal cuando pareamos cosas.
+.
+Adjacent List: Te dice qué elementos conoce a cuáles, para ponerlo en contexto, 
+imagina a las personas que tu conoces, tú conoces a “n” cantidad de personas, 
+pues básicamente esa sería tu primer índice del arreglo en un adjancent list, 
+pero ten en cuenta que todas esas personas que tú conoces también conocen a otras personas, 
+de entre ellas tú, así que esa sería tu segunda posición del arreglo, todas las personas que 
+otra persona conoce.
+.
+Adjancent Matrix: Esto es un poquito más de imaginación, el Adjancent Matrix te pone a todas las 
+personas que existen en una lista y te empieza a preguntar: ¿Conoces a esta persona? 
+Si sí entonces la pone en 1, si no entonces la pone en 0, y así por cada persona que exista, 
+cada índice representa a una persona, por eso digo que necesitas imaginartelas.

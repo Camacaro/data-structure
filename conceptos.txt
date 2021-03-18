@@ -1,0 +1,10 @@
+
+Los datos se guardan en el memory slot de forma aleatoria y la computadora sabe donde se guarda 
+por la address 
+
+hasTable: es un hash address donde guardan los arrays y pueden haber mas de un indice deentro de el
+comom dos arrays
+
+
+¿Cuántos bytes puede guardar un memory slot?
+1 Byte

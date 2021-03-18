@@ -1,0 +1,24 @@
+// ==================================================================================================
+Linked List: 
+Single Linked List: solo puede recorrerse por una sola via para obtener el valor anterior 
+debo recorrer desde un principio la list 
+value/head   value  value   value/tail null
+next         next   next    next
+Linked List son simplemente un conjunto de nodos ordenados que contienen los valores que necesitemos
+(numbers, strings, boolean, etc). Cada uno tiene un valor y una referencia a un siguiente nodo.
+Prepend ⇒ Agregar un nodo al inicio
+Append ⇒ Agregar un nodo al final
+Lookup / Search ⇒ Buscar un nodo
+Insert ⇒ insertar un nodo en la lista
+Delete ⇒ Borrar un nodo
+
+RESUMEN: Un singly linked list es aquella que en sus nodos están su valor actual y la relación con el siguiente, 
+si deseamos acceder a un determinado valor debemos recorrer si o si todos los elementos anteriores para llegar 
+al lugar deseado.
+
+// ==================================================================================================
+Doubly Linked list
+Una doubly linked list tiene el mismo comportamiento que una simply linked list, 
+pero con la particularidad de que esta SI puede regresar. Aún necesita ir moviéndose 
+una por una, pero ahora si lo desea puede regresar porque ya conoce quién es su elemento
+anterior y también quién es el siguiente, es decir, ya no es necesario repetir el ciclo.

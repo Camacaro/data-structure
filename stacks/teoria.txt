@@ -1,0 +1,19 @@
+
+LIFO 
+Last In, First Out
+Un stack basicamente es una pila, es decir, algo que estás apilando, 
+lo primero que entra se queda hasta abajo y lo último que entra se queda hasta arriba, 
+de ahí su nombre LIFO, Las In (El último que entra), First Out (Es el primero que sale).
+
+// ===========
+Queues 
+FIFO, First In, First Out.
+🚶‍♂️ Queues
+Ideas/conceptos claves
+Una cola o queue es una estructura de datos muy similar a una Pila. 
+Cuando usamos una Pila, ésta opera con una modalidad LIFO (Last In First Out), 
+mientras que con una Cola es FIFO (First In First Out), es decir, 
+siempre el primer elemento que agreguemos, será el primero que saquemos de ella.
+enqueue -> agrega un elemento al final de la linea 
+dequeue -> remover el primero de la linea 
+peek -> tomar el primer elemento de la linea 
