@@ -2,7 +2,7 @@
 //    /  \
 //  4    17
 // / \   / \
-// 1   9 12  18
+// 1  9 12  18
 
 const tree = {
 	"10": {
@@ -115,9 +115,9 @@ const alternateBreadthFirstSearch = (tree, rootNode, searchValue) => {
 };
 
 BreadthFirstSearch(tree, tree[10], "12");
-console.log('============================')
-BreadthFirstSearch(tree, tree[10], "42");
-console.log('============================')
+// console.log('============================')
+// BreadthFirstSearch(tree, tree[10], "42");
+// console.log('============================')
 
 const alternateBFS = alternateBreadthFirstSearch(tree, tree[10], "12");
 console.log(alternateBFS)
